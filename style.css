@@ -1,0 +1,193 @@
+
+#upbar{
+	width: 900px;
+    padding: 30px;
+    margin: 5px auto;
+    background: #0E5476;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#upbar #menu{
+	text-transform: uppercase;
+}
+#upbar #userinfo{
+	font-size: 8px;
+}
+#upbar #userinfo h2{
+	font-size: 14px;
+}
+#upbar #userinfo span{
+	font-size: 11px;
+}
+.Egyeb{
+	width: 900px;
+    padding: 30px;
+    margin: 5px auto;
+    background: rgba(108, 241, 241, 0.219);
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #EEEEEE;
+	color: #000000;
+	font-size: 12px;
+}
+div.SubNewsClass {
+	width: 900px;
+	margin: 0px auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #EEEEEE;
+	padding: 2px;
+	margin-bottom: 0px;
+  }
+  div.NewsTitle {
+	padding: 2px 5px;
+	border: 1px solid #0E5476;
+	background-color: #3463D0;
+  }
+  div.NewsBody {
+	padding: 2px 5px;
+	border: 1px solid #0E5476;
+	border-top: 0;
+	color: #EEEEEE;
+	background-color: #3463D0;
+	height: 160px;
+	overflow: auto;
+  }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #0E5476;
+}
+.second-level-menu > li:hover { background: rgb(24, 107, 107); }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0px;
+	margin: 0;
+	width: 900px;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    float: left;
+    height: 30px;
+    width: 150px;
+    background: #0E5476;
+}
+.top-level-menu > li:hover { background:  rgb(24, 107, 107); }
+
+.top-level-menu li:hover > ul
+{
+    display: inline;
+}
+.top-level-menu a 
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 0px;
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
+.top-level-menu li
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu li:hover { color: #000000; }
+/*
+Formok
+
+*/
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 900px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #0E5476;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
